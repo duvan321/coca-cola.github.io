@@ -39,6 +39,7 @@ header .container nav a {
 }
 header .container .hamb {
   display: none;
+  position: relative;
 }
 footer {
   background-color: black;
@@ -303,7 +304,7 @@ footer .redes a {
 }
 
 @media (max-width: 767px) {
-  body{
+  body {
     font-size: 15px;
   }
   header .container nav {
@@ -321,6 +322,9 @@ footer .redes a {
     transition: all 0.4s ease;
     transform: translateX(100%);
   }
+  header .container nav.open {
+    transform: translateX(0);
+  }
   header .container nav a {
     font-size: 30px;
     margin: 15px 0;
@@ -329,42 +333,39 @@ footer .redes a {
     display: block;
     font-size: 40px;
     color: red;
+    
   }
-  #inicio .bloque-inicio h1{
+  #inicio .bloque-inicio h1 {
     font-size: 33.5px;
-    
   }
-  #inicio .bloque-inicio{
-   padding: 18px;
-    
-   
+  #inicio .bloque-inicio {
+    padding: 18px;
   }
-  form .boton.boton-negro{
+  form .boton.boton-negro {
     width: 100%;
   }
-  footer{
+  footer {
     text-align: center;
   }
-  footer .logo-footer{
+  footer .logo-footer {
     width: 50%;
   }
-  footer .redes{
+  footer .redes {
     justify-content: center;
   }
   .container {
     width: 100%;
   }
-  .columna-mobile-100{
-   width: 100%; 
+  .columna-mobile-100 {
+    width: 100%;
   }
-  .columna-mobile-50{
-  width: 50%;
-  
+  .columna-mobile-50 {
+    width: 50%;
   }
-  .empujar-mobile-0{
-margin-left: 0;
+  .empujar-mobile-0 {
+    margin-left: 0;
   }
-  .sinpadding-mobile{
+  .sinpadding-mobile {
     padding: 0;
   }
   #inicio {
@@ -378,10 +379,10 @@ margin-left: 0;
   #servicios .bloque-servicio {
     margin-bottom: 15px;
   }
-  #contacteos{
+  #contacteos {
     padding: 0;
   }
-  #contactenos iframe{
+  #contactenos iframe {
     position: relative;
     height: 50vh;
   }

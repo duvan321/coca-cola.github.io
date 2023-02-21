@@ -170,9 +170,7 @@
         ></iframe>
         <div class="container-fluid">
           <div class="row">
-            <div
-              class="columna columna-41 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile"
-            >
+            <div class="columna columna-41 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile">
               <form action="" method="post">
                 <div class="form-block">
                   <input
@@ -218,8 +216,8 @@
                     $adicional = "From: joeljosue321@hotmail.com";
                     mail($para,$asunto,$cuerpo,$adicional);
                   ?>
-                <p>Envio exitoso</p>
-                <?php
+                     <p>Envio exitoso</p>
+                  <?php
                  }
                 }
                }
