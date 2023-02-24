@@ -210,10 +210,10 @@
                      {
                     if(isset($mensaje))
                     {
-                    $para = "joeljosue321@hotmail.com";
+                    $para = "patinodiegoduvan123@gmail.com";
                     $asunto = "Esto es una prueba";
                     $cuerpo = $nombre."\n".$email."\n".$mensaje;
-                    $adicional = "From: joeljosue321@hotmail.com";
+                    $adicional = "From: diegoduvan321@gmail.com";
                     mail($para,$asunto,$cuerpo,$adicional);
                   ?>
                      <p>Envio exitoso</p>
